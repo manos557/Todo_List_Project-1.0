@@ -10,10 +10,8 @@ int main() {
     int priority;
     int index;
 
-    printf("Loading data...\n");
     loadNotes();
     loadTasks();
-    printf("Data loaded.\n");
 
     while (1) {
         printf("\n--- Project Menu ---\n");
@@ -67,3 +65,4 @@ int main() {
     }
     return 0;
 }
+
